@@ -1,7 +1,7 @@
 # Financial-Data-Etl
 Automated pipeline for scraping, processing, storing, and analyzing stock market data from major tech companies (Magnificent 7-inspired tickers: AAPL, GOOGL, MSFT, AMZN, TSLA, META).  Built in Python with a focus on modularity, scheduling, cloud backup (Google Drive), and future ML/dashboard integration.
 
-## Current Features (v0.1 – Data Acquisition & ETL)
+## Features (v0.1 – Data Acquisition & ETL)
 
 - **Data Scraping** (FinancialScraper class)
   - Historical prices, financial statements, balance sheets, cash flows via `yfinance`
@@ -39,13 +39,13 @@ Automated pipeline for scraping, processing, storing, and analyzing stock market
 - Authentication: OAuth2 (Installed App Flow) with token caching
 
 
-##. Machine Learning Layer
+. Machine Learning Layer
 - RandomForestRegressor with time-series features (lags, rolling stats, RSI, MACD)
 - Future price prediction (configurable horizon)
 - Trading signals: **STRONG BUY / BUY / HOLD / SELL / STRONG SELL**
 - Model persistence with joblib
 
-## 5. Visualization Layer (Complete)
+. Visualization Layer (Complete)
 
 **Streamlit Web App** (`app.py`)
 ![Streamlit UI](images/streamlit-ui.png)
