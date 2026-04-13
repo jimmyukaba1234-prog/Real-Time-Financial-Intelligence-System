@@ -66,4 +66,4 @@ Automated pipeline for scraping, processing, storing, and analyzing stock market
 - Auto-refreshing live quotes
 - Professional visualizations and correlation analysis
 
-![Dash Advanced Dashboard](screenshots/dash_dashboard.png)
+
