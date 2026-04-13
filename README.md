@@ -38,15 +38,28 @@ Automated pipeline for scraping, processing, storing, and analyzing stock market
 - Storage: Local SQLite + Google Drive (for raw/cleaned backups)
 - Authentication: OAuth2 (Installed App Flow) with token caching
 
-## What's Next (Roadmap)
-- Machine Learning predictions 
-  - Store results in predictions table
-- Streamlit dashboard:
-  - Live ticker overview
-  - Intraday charts
-  - News feed
-  - Metrics & predictions visualization
-- Deployment: Streamlit Community Cloud 
-- Enhancements:
-  - Email alerts 
-  - More sources 
+
+##. Machine Learning Layer
+- RandomForestRegressor with time-series features (lags, rolling stats, RSI, MACD)
+- Future price prediction (configurable horizon)
+- Trading signals: **STRONG BUY / BUY / HOLD / SELL / STRONG SELL**
+- Model persistence with joblib
+
+## 5. Visualization Layer (Complete)
+
+**Streamlit Web App** (`app.py`)
+- Clean, modern, and user-friendly interface
+- Live market quotes
+- Interactive charts and technical indicators
+- ML predictions with confidence intervals
+- One-click report generation
+
+![Streamlit Web App](screenshots/streamlit_dashboard.png)
+
+**Advanced Analytics Dashboard** (`dashboard.py`)
+- Built with Plotly Dash for deeper analysis
+- Multi-tab interface (Charts, Data, Metrics, Correlation)
+- Auto-refreshing live quotes
+- Professional visualizations and correlation analysis
+
+![Dash Advanced Dashboard](screenshots/dash_dashboard.png)
