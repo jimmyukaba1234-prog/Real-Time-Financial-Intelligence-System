@@ -48,6 +48,8 @@ Automated pipeline for scraping, processing, storing, and analyzing stock market
 ## 5. Visualization Layer (Complete)
 
 **Streamlit Web App** (`app.py`)
+![Streamlit UI](images/streamlit-ui.png)
+![Streamlit UI](images/streamlit-ui1.png)
 - Clean, modern, and user-friendly interface
 - Live market quotes
 - Interactive charts and technical indicators
@@ -57,6 +59,8 @@ Automated pipeline for scraping, processing, storing, and analyzing stock market
 ![Streamlit Web App](screenshots/streamlit_dashboard.png)
 
 **Advanced Analytics Dashboard** (`dashboard.py`)
+![Dashboard Overview](images/dashboard-overview.png)
+![Dashboard Overview](images/dashboard-overview1.png)
 - Built with Plotly Dash for deeper analysis
 - Multi-tab interface (Charts, Data, Metrics, Correlation)
 - Auto-refreshing live quotes
